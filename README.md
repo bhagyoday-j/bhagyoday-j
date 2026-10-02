@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1e1b4b&height=200&section=header&text=Bhagyoday%20Jadhav&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:3730A3&height=200&section=header&text=Bhagyoday%20Jadhav&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
 
   <h1>👋 Hi, I'm Bhagyoday Jadhav</h1>
   <p><b>Full-Stack & GenAI Developer | MERN Stack Specialist | CS Undergrad</b></p>
