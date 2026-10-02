@@ -19,8 +19,8 @@
 
   <br/><br/>
 
-  <!-- VISITOR COUNTER -->
-  <img src="https://api.visitorbadge.io/api/visitors?path=bhagyoday-j&countColor=%236366f1" alt="Visitors" />
+  <!-- RELIABLE VISITOR COUNTER -->
+  <img src="https://komarev.com/ghpvc/?username=bhagyoday-j&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
 
@@ -58,7 +58,14 @@
 
 ---
 
-### 📊 GitHub Analytics & Contributions
+### 🟩 Contributions & Analytics
+
+<div align="center">
+  <!-- GREEN CONTRIBUTION BOXES GRAPH -->
+  <img src="https://ghchart.rshah.org/39d353/bhagyoday-j" alt="Bhagyoday's Github Contribution Chart" width="100%" />
+</div>
+
+<br/>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bhagyoday-j&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Overall Stats" />
@@ -71,25 +78,16 @@
   <img src="https://streak-stats.demolab.com?user=bhagyoday-j&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak Stats" />
 </div>
 
-<br/>
-
-#### 📈 Contribution Snake
-<div align="center">
-  <img src="https://raw.githubusercontent.com/bhagyoday-j/bhagyoday-j/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Snake Game" />
-</div>
-
 ---
 
 ### 📌 Featured Repositories
 
-*(To pin specific repositories to your profile cards below, replace `repo-name-1` and `repo-name-2` with your actual public repository names)*
-
 <div align="center">
-  <a href="https://github.com/bhagyoday-j/repo-name-1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=repo-name-1&theme=tokyonight&hide_border=true" width="48%" alt="Pinned Repo 1" />
+  <a href="https://github.com/bhagyoday-j/Smart-Campus-Transit-Management-System">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=Smart-Campus-Transit-Management-System&theme=tokyonight&hide_border=true" width="48%" alt="Smart Campus Transit Management System" />
   </a>
-  <a href="https://github.com/bhagyoday-j/repo-name-2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=repo-name-2&theme=tokyonight&hide_border=true" width="48%" alt="Pinned Repo 2" />
+  <a href="https://github.com/bhagyoday-j/BJ-KnowShare">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=BJ-KnowShare&theme=tokyonight&hide_border=true" width="48%" alt="BJ KnowShare" />
   </a>
 </div>
 
