@@ -1,0 +1,189 @@
+name: Update Pinned Repositories
+
+on:
+  # Run whenever the workflow file or README changes
+  push:
+    branches:
+      - main
+
+  # Run automatically once every day
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual execution
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-pinned-repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch pinned repositories
+        env:
+          GH_TOKEN: ${{ secrets.PINNED_REPOS_TOKEN }}
+          USERNAME: bhagyoday-j
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          username = os.environ["USERNAME"]
+          token = os.environ["GH_TOKEN"]
+
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              pinnedItems(first: 6, types: REPOSITORY) {
+                nodes {
+                  ... on Repository {
+                    name
+                    nameWithOwner
+                    url
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          variables = {
+              "login": username
+          }
+
+          result = subprocess.run(
+              [
+                  "curl",
+                  "-sS",
+                  "-X",
+                  "POST",
+                  "-H",
+                  "Authorization: bearer " + token,
+                  "-H",
+                  "Content-Type: application/json",
+                  "https://api.github.com/graphql",
+                  "-d",
+                  json.dumps({
+                      "query": query,
+                      "variables": variables
+                  })
+              ],
+              capture_output=True,
+              text=True,
+              check=True
+          )
+
+          data = json.loads(result.stdout)
+
+          if "errors" in data:
+              print("GitHub GraphQL API returned an error:")
+              print(json.dumps(data["errors"], indent=2))
+              sys.exit(1)
+
+          user = data.get("data", {}).get("user")
+
+          if not user:
+              print("Could not find GitHub user:", username)
+              sys.exit(1)
+
+          repositories = user["pinnedItems"]["nodes"]
+
+          print(f"Found {len(repositories)} pinned repositories.")
+
+          cards = []
+
+          for repo in repositories:
+              name = repo["name"]
+              url = repo["url"]
+
+              card = f'''  <a href="{url}">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username={username}&repo={name}&theme=tokyonight&hide_border=true" width="48%" alt="{name}" />
+            </a>'''
+
+              cards.append(card)
+
+          if not cards:
+              content = """<div align="center">
+
+          <p>No pinned repositories found.</p>
+
+          </div>"""
+          else:
+              content = """<div align="center">
+          """ + "\n".join(cards) + """
+          </div>"""
+
+          start_marker = "<!-- PINNED-REPOS:START -->"
+          end_marker = "<!-- PINNED-REPOS:END -->"
+
+          readme_path = "README.md"
+
+          with open(readme_path, "r", encoding="utf-8") as file:
+              readme = file.read()
+
+          start_index = readme.find(start_marker)
+          end_index = readme.find(end_marker)
+
+          if start_index == -1 or end_index == -1:
+              print("ERROR: README markers were not found.")
+              print("Make sure README.md contains:")
+              print(start_marker)
+              print(end_marker)
+              sys.exit(1)
+
+          if end_index < start_index:
+              print("ERROR: README markers are in the wrong order.")
+              sys.exit(1)
+
+          new_section = (
+              start_marker
+              + "\n\n"
+              + content
+              + "\n\n"
+              + end_marker
+          )
+
+          new_readme = (
+              readme[:start_index]
+              + new_section
+              + readme[end_index + len(end_marker):]
+          )
+
+          with open(readme_path, "w", encoding="utf-8") as file:
+              file.write(new_readme)
+
+          print("README updated successfully.")
+          PY
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated README
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          git commit -m "chore: update pinned repositories"
+
+          git push
+
+      - name: No changes needed
+        if: steps.changes.outputs.changed == 'false'
+        run: |
+          echo "Pinned repositories have not changed."
