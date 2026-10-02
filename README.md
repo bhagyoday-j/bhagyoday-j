@@ -35,25 +35,31 @@
 
 ---
 
-### 🏢 Organizations & Leadership
+### 🏢 GitHub Organizations & Team Initiatives
 
 <div align="center">
   <table border="0">
     <tr>
       <td width="33%" align="center">
-        <img src="https://img.shields.io/badge/GDG_On_Campus-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Groups" /><br/><br/>
-        <b>Google Developer Groups</b><br/>
-        <sub>Campus Member & Technical Contributor</sub>
+        <a href="https://github.com/WeightShield">
+          <img src="https://img.shields.io/badge/WeightShield-312E81?style=for-the-badge&logo=github&logoColor=white" alt="WeightShield" />
+        </a><br/><br/>
+        <b><a href="https://github.com/WeightShield">WeightShield</a></b><br/>
+        <sub>Team Organization</sub>
       </td>
       <td width="33%" align="center">
-        <img src="https://img.shields.io/badge/Jarurat_Care-008080?style=for-the-badge&logo=heart&logoColor=white" alt="Jarurat Care Foundation" /><br/><br/>
-        <b>Jarurat Care Foundation</b><br/>
-        <sub>Full Stack Developer Intern</sub>
+        <a href="https://github.com/SIH-2026-Problem-Compilers">
+          <img src="https://img.shields.io/badge/SIH--2026--Problem--Compilers-065F46?style=for-the-badge&logo=github&logoColor=white" alt="SIH 2026 Problem Compilers" />
+        </a><br/><br/>
+        <b><a href="https://github.com/SIH-2026-Problem-Compilers">SIH-2026 Problem Compilers</a></b><br/>
+        <sub>Hackathon & Project Team</sub>
       </td>
       <td width="33%" align="center">
-        <img src="https://img.shields.io/badge/BMJ_Apps-4F46E5?style=for-the-badge&logo=codeforces&logoColor=white" alt="BMJ Apps" /><br/><br/>
-        <b>bmjapps.in</b><br/>
-        <sub>Personal Tech & Web Projects Hub</sub>
+        <a href="https://github.com/agripath-to-help-farmer">
+          <img src="https://img.shields.io/badge/AgriPath-15803D?style=for-the-badge&logo=github&logoColor=white" alt="AgriPath" />
+        </a><br/><br/>
+        <b><a href="https://github.com/agripath-to-help-farmer">AgriPath</a></b><br/>
+        <sub>Agricultural Tech for Farmers</sub>
       </td>
     </tr>
   </table>
