@@ -28,10 +28,36 @@
 
 ### 🚀 About Me
 
-- 🎓 **Education:** Third-Year Computer Science Engineering Student
+- 🎓 **Education:** Third-Year Computer Science Engineering Student at Sanjivani College of Engineering
 - 💻 **Core Focus:** Building scalable Full-Stack Web Applications & GenAI Systems (RAG pipeline integration)
 - ⚙️ **Problem Solving:** Actively grinding algorithms and data structures on [LeetCode](https://leetcode.com/u/BMJ-311_/)
 - 📫 **How to reach me:** Connect with me on [LinkedIn](https://www.linkedin.com/in/bhagyodayjadhav/)
+
+---
+
+### 🏢 Organizations & Leadership
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="33%" align="center">
+        <img src="https://img.shields.io/badge/GDG_On_Campus-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Groups" /><br/><br/>
+        <b>Google Developer Groups</b><br/>
+        <sub>Campus Member & Technical Contributor</sub>
+      </td>
+      <td width="33%" align="center">
+        <img src="https://img.shields.io/badge/Jarurat_Care-008080?style=for-the-badge&logo=heart&logoColor=white" alt="Jarurat Care Foundation" /><br/><br/>
+        <b>Jarurat Care Foundation</b><br/>
+        <sub>Full Stack Developer Intern</sub>
+      </td>
+      <td width="33%" align="center">
+        <img src="https://img.shields.io/badge/BMJ_Apps-4F46E5?style=for-the-badge&logo=codeforces&logoColor=white" alt="BMJ Apps" /><br/><br/>
+        <b>bmjapps.in</b><br/>
+        <sub>Personal Tech & Web Projects Hub</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -51,10 +77,12 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![RAG / GenAI](https://img.shields.io/badge/GenAI_%2F_RAG-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
 
-**Tools & DevOps**
+**Tools & Cloud Platforms**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
