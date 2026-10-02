@@ -1,5 +1,6 @@
 <div align="center">
 
+
   <!-- HEADER BANNER -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:3730A3&height=200&section=header&text=Bhagyoday%20Jadhav&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
 
