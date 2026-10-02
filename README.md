@@ -103,6 +103,27 @@
 
 <!-- PINNED-REPOS:START -->
 
+<div align="center">
+  <a href="https://github.com/bhagyoday-j/Computer-Network">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=Computer-Network&theme=tokyonight&hide_border=true" width="48%" alt="Computer-Network" />
+  </a>
+  <a href="https://github.com/bhagyoday-j/Data-Structures-Assignments">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=Data-Structures-Assignments&theme=tokyonight&hide_border=true" width="48%" alt="Data-Structures-Assignments" />
+  </a>
+  <a href="https://github.com/bhagyoday-j/OOP">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=OOP&theme=tokyonight&hide_border=true" width="48%" alt="OOP" />
+  </a>
+  <a href="https://github.com/bhagyoday-j/Chat-App">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=Chat-App&theme=tokyonight&hide_border=true" width="48%" alt="Chat-App" />
+  </a>
+  <a href="https://github.com/bhagyoday-j/AI-Chatbot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=AI-Chatbot&theme=tokyonight&hide_border=true" width="48%" alt="AI-Chatbot" />
+  </a>
+  <a href="https://github.com/bhagyoday-j/IOT-Live-Bus-Tracking">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=IOT-Live-Bus-Tracking&theme=tokyonight&hide_border=true" width="48%" alt="IOT-Live-Bus-Tracking" />
+  </a>
+</div>
+
 <!-- PINNED-REPOS:END -->
 
 ---
