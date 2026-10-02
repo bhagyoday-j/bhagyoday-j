@@ -100,14 +100,9 @@
 
 ### 📌 Featured Repositories
 
-<div align="center">
-  <a href="https://github.com/bhagyoday-j/Smart-Campus-Transit-Management-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=Smart-Campus-Transit-Management-System&theme=tokyonight&hide_border=true" width="48%" alt="Smart Campus Transit Management System" />
-  </a>
-  <a href="https://github.com/bhagyoday-j/BJ-KnowShare">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhagyoday-j&repo=BJ-KnowShare&theme=tokyonight&hide_border=true" width="48%" alt="BJ KnowShare" />
-  </a>
-</div>
+<!-- PINNED-REPOS:START -->
+
+<!-- PINNED-REPOS:END -->
 
 ---
 
